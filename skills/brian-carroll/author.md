@@ -1,6 +1,6 @@
 ---
 name: Brian Carroll
-avatarUrl: https://www.markempa.com/wp-content/uploads/2025/11/Capture-2025-11-25-094628-e1764086163257.jpg
+avatarUrl: https://avatars.githubusercontent.com/u/57033586?v=4
 title: CEO, markempa
 linkedinUrl: https://www.linkedin.com/in/briancarroll
 companyDomain: markempa.com
