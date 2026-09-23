@@ -21,56 +21,14 @@ Produces a verdict for each account with cited evidence, explicit unknowns, and
 a flip condition. The method is transferable; the specific criteria are yours to
 define from your own win/loss/no-decision data.
 
-## Diagnostic philosophy
+The core conviction: diagnosis before prescription. Fit describes a market —
+it does not explain buying behavior. The companies that actually buy share a
+pattern: something disrupted the status quo enough to make change feel
+necessary. This skill builds the system for separating "looks like a fit" from
+"has a reason to change right now."
 
-This skill is built on a conviction: diagnosis before prescription.
-
-Most pipeline problems look the same on a dashboard — lots of activity, not
-enough revenue. The instinct is to act on the most visible symptom: generate
-more leads, hire more SDRs, change the messaging, buy another tool. But
-treating symptoms without diagnosing the system produces more activity, not
-more revenue.
-
-The same principle applies to qualification. The instinct is to score accounts
-based on observable data and treat high scores as buying intent. But observable
-data tells you what a company looks like, not what is happening inside it.
-
-This skill exists to slow down the leap from "looks like a fit" to "ready to
-buy" and replace it with a reasoning chain:
-
-**Evidence → interpretation → hypothesis → question → decision.**
-
-The value is in the reasoning, not in a score. An agent should say "I don't
-know yet, and here is the next question that would resolve it" rather than
-assign a confidence number based on weak signals.
-
-## The central question: why do some good-fit companies buy while others don't?
-
-Most ICPs describe a market. They are good at identifying who fits: industry,
-revenue, employees, technology, geography, business model. All of that matters.
-
-But fit does not explain buying behavior. A company can match every ICP
-criterion and have no intention of changing anything. Another company with
-nearly identical characteristics becomes a customer in 60 days.
-
-The difference is not fit. It is whether something has disrupted the status quo
-enough to make change feel necessary.
-
-The status quo is the default. Companies stay with what they have — even when
-it underperforms — because change is expensive, risky, and politically
-complicated. Good-fit companies that take meetings but never buy are not
-failures of targeting. They are companies where the status quo is still
-tolerable.
-
-The companies that actually buy share a pattern: something happened that made
-the status quo harder to maintain. A new leader inherited a system they did not
-trust. An acquisition created integration friction. A failed initiative made
-the current approach harder to defend. Competitive pressure made inaction feel
-riskier than change.
-
-Your ICP tells you where to look. Buying readiness tells you which of those
-companies has a reason to change right now. This skill builds the system for
-separating the two.
+(See references/diagnostic-philosophy.md for the full reasoning chain and the
+central question this framework answers.)
 
 ## Skill contract
 
@@ -339,49 +297,8 @@ Revise your fit criteria, readiness signals, signal windows, discovery
 questions, and disqualifiers. This makes the framework a learning system, not
 a static scoring model.
 
-## Standard output template
-
-```
-Account: [name]
-Stage: Pre-discovery / Post-discovery
-Verdict: Investigate / Watch / Pass  OR  Pursue / Watch / Pass
-
-## Fit
-- [Criterion]: Yes / No / Unknown
-  Evidence: [source and specific fact]
-
-## Readiness
-- [Trigger]:
-  Observed fact: [what is actually known, with source]
-  Hypothesis: [what this may mean — how it might pressure the status quo]
-  Supporting evidence: [what strengthens the read]
-  Contradicting evidence: [what weakens it]
-  Evidence strength: Strong / Mixed / Weak
-  Unknown: [what we still need to learn]
-
-## Discovery (post-conversation only)
-- Business problem: [in their own words, or Unknown]
-- Status quo pressure: [what has made the current state harder to maintain]
-- Urgency: [evidence of forcing function, or none]
-- Sponsor: [named person with authority, or Unknown]
-- Willingness to act: [evidence, or Unknown]
-- Disqualifiers: [any confirmed, or none]
-
-## Unknowns
-- [What we still need to learn]
-- [What we still need to learn]
-
-## Next best questions
-1. [Most valuable question to resolve the most important Unknown]
-2. [Second most valuable]
-3. [Third]
-
-## Flip condition
-[What would need to change for this account to move verdicts]
-
-## Next action
-[Research / Engage / Schedule discovery / Watch / Pass]
-```
+Use the standard output template for every account evaluation.
+(See references/output-template.md for the full template.)
 
 ## What good looks like
 
